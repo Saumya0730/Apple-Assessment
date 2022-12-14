@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="58dc4523-3069-4e0d-aafe-87b537f01448">
+    <jcr:content
+        cq:name="shirts"
+        cq:parentPath="/content/dam/content-fragments"
+        jcr:lastModified="{Date}2022-12-14T18:44:26.648Z"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Shirts"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2022-12-14T18:44:26.648Z">
+        <data
+            cq:model="/conf/content-fragment/settings/dam/cfm/models/product-type"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                productTypeLink="/content/mysite/us/en/men/clothing/shirts"
+                productTypeLink_x0040_LastModified="{Date}2022-12-14T18:44:26.618Z"
+                productTypeText="Shirts"
+                productTypeText_x0040_LastModified="{Date}2022-12-14T18:44:26.617Z"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
